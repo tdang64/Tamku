@@ -11,7 +11,7 @@ const About = () => {
            <b> Thanh Tam Dang </b>
             and I am from Vietnam. I specialize in creating dynamic and user-friendly websites that enhance the online experience. I am passionate about programming, designing, and bringing creative ideas to life on the web. Happy to connect and collaborate!</span>
            </div>
-           <img src="./src/assets/bg.png" alt="" className="bg" />
+           <img src="./public/assets/bg.png" alt="" className="bg" />
 
         </section>
         
