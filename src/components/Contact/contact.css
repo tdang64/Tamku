@@ -1,0 +1,103 @@
+#contact{
+    min-height: calc(100vh - 4rem);
+    width: 100;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+.contactTitle{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    
+}
+
+.conDesc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+/* .contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    max-width: 90rem;
+} */
+
+.name, .msg, .email{
+    font-size: medium;
+    width: 100%;
+    max-width: 60rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    background-color: #404040;
+
+}
+
+.submitBtn{
+    background-color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+
+.link{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 1rem;
+}
+
+.links{
+   
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.btnRes{
+    
+        background-color:#595a5d;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+         border:none;
+        cursor: pointer;
+        border-radius: 10%;
+        padding: 15px 40px;
+        border-left: 6px solid #1836b2;
+        border-right: 6px solid #1836b2;
+        transition: all 1000ms;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .btnRes:hover{
+        padding: 8px 45px;  
+        border-left: 8px solid #1836b2;
+        border-right: 8px solid #1836b2;
+        letter-spacing: 4px;
+        color:#1836b2;
+        background-color: white;
+    }

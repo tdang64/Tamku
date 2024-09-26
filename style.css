@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif */
+    font-family: 'Oswald';
+
+}
+
+body{
+    background: #f3f8fc;
+
+    color: black;
+    overflow: hidden;
+    overflow-y: scroll;
+    
+}

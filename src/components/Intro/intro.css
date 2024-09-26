@@ -1,0 +1,75 @@
+.intro{
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    overflow: hidden;
+    margin: 5% auto;
+
+}
+
+.introContent{
+    height: 100vh;
+    width: 100vh;
+    padding: 4rem;
+    font-size: 5rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+
+
+}
+
+.hi{
+font-size: 1.75rem;
+font-weight: 100;
+}
+
+.introName{
+    color: #1836b2;
+}
+
+.introPara{
+    font-size: medium;
+    font-weight: 100;
+}
+
+/* .autoText{
+    display:inline-block;
+    border-right: 3px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s step(18)
+    cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor{
+    50% {border-color: transparent;}
+}
+@keyframes typing{
+    from {width: 0;}
+} */
+
+.btnAme{
+    background-color:#1836b2;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+     border:none;
+    cursor: pointer;
+    border-radius: 10%;
+    padding: 15px 40px;
+    border-left: 6px solid #1836b2;
+    border-right: 6px solid #1836b2;
+    transition: all 1000ms;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btnAme:hover{
+    padding: 8px 45px;  
+    border-left: 8px solid #1836b2;
+    border-right: 8px solid #1836b2;
+    letter-spacing: 4px;
+    color:#1836b2;
+    background-color: white;
+}
